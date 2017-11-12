@@ -1,0 +1,146 @@
+fileFormatVersion: 2
+guid: 06de29bedc295a949be32ba04035e174
+timeCreated: 1507042588
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: accessory.l
+    100002: accessory.l_end
+    100004: accessory.r
+    100006: accessory.r_end
+    100008: arm.l
+    100010: arm.r
+    100012: Armature
+    100014: belt
+    100016: Bone
+    100018: Bone.001
+    100020: Cap -High-Poly
+    100022: foot.l
+    100024: foot.l_end
+    100026: foot.r
+    100028: foot.r_end
+    100030: hand.l
+    100032: hand.r
+    100034: hat
+    100036: hat_end
+    100038: head
+    100040: leg.l
+    100042: leg.r
+    100044: //RootNode
+    100046: neck
+    100048: Plane
+    100050: Plane.009
+    100052: root
+    100054: torso
+    100056: wrist.l
+    100058: wrist.r
+    400000: accessory.l
+    400002: accessory.l_end
+    400004: accessory.r
+    400006: accessory.r_end
+    400008: arm.l
+    400010: arm.r
+    400012: Armature
+    400014: belt
+    400016: Bone
+    400018: Bone.001
+    400020: Cap -High-Poly
+    400022: foot.l
+    400024: foot.l_end
+    400026: foot.r
+    400028: foot.r_end
+    400030: hand.l
+    400032: hand.r
+    400034: hat
+    400036: hat_end
+    400038: head
+    400040: leg.l
+    400042: leg.r
+    400044: //RootNode
+    400046: neck
+    400048: Plane
+    400050: Plane.009
+    400052: root
+    400054: torso
+    400056: wrist.l
+    400058: wrist.r
+    2300000: Cap -High-Poly
+    2300002: Plane.009
+    3300000: Cap -High-Poly
+    3300002: Plane.009
+    4300000: Plane.009
+    4300002: Cap -High-Poly
+    4300004: Plane
+    9500000: //RootNode
+    13700000: Plane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

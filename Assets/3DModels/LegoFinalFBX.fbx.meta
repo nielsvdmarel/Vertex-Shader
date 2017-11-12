@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 7dfb2910bcaeb83409d9dcc7a53ce44f
+timeCreated: 1507629729
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: accessory.l
+    100002: accessory.l_end
+    100004: accessory.r
+    100006: accessory.r_end
+    100008: arm.l
+    100010: arm.r
+    100012: Armature
+    100014: belt
+    100016: Bone
+    100018: Bone.001
+    100020: foot.l
+    100022: foot.l_end
+    100024: foot.r
+    100026: foot.r_end
+    100028: hand.l
+    100030: hand.r
+    100032: head
+    100034: head_end
+    100036: leg.l
+    100038: leg.r
+    100040: //RootNode
+    100042: neck
+    100044: Plane
+    100046: root
+    100048: torso
+    100050: wrist.l
+    100052: wrist.r
+    400000: accessory.l
+    400002: accessory.l_end
+    400004: accessory.r
+    400006: accessory.r_end
+    400008: arm.l
+    400010: arm.r
+    400012: Armature
+    400014: belt
+    400016: Bone
+    400018: Bone.001
+    400020: foot.l
+    400022: foot.l_end
+    400024: foot.r
+    400026: foot.r_end
+    400028: hand.l
+    400030: hand.r
+    400032: head
+    400034: head_end
+    400036: leg.l
+    400038: leg.r
+    400040: //RootNode
+    400042: neck
+    400044: Plane
+    400046: root
+    400048: torso
+    400050: wrist.l
+    400052: wrist.r
+    4300000: Plane
+    7400000: Idle
+    7400002: Eat
+    7400004: Panic
+    7400006: Explode
+    9500000: //RootNode
+    13700000: Plane
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/belt
+        weight: 1
+      - path: Armature/root/belt/torso
+        weight: 1
+      - path: Armature/root/belt/torso/neck
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l/accessory.l_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r/accessory.r_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head/head_end
+        weight: 1
+      - path: Armature/root/Bone
+        weight: 1
+      - path: Armature/root/Bone/leg.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l/foot.l_end
+        weight: 1
+      - path: Armature/root/Bone.001
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r/foot.r_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Eat
+      takeName: Armature|ArmatureAction
+      firstFrame: 40
+      lastFrame: 188
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/belt
+        weight: 1
+      - path: Armature/root/belt/torso
+        weight: 1
+      - path: Armature/root/belt/torso/neck
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l/accessory.l_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r/accessory.r_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head/head_end
+        weight: 1
+      - path: Armature/root/Bone
+        weight: 1
+      - path: Armature/root/Bone/leg.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l/foot.l_end
+        weight: 1
+      - path: Armature/root/Bone.001
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r/foot.r_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Panic
+      takeName: Armature|ArmatureAction
+      firstFrame: 188
+      lastFrame: 274
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/belt
+        weight: 1
+      - path: Armature/root/belt/torso
+        weight: 1
+      - path: Armature/root/belt/torso/neck
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l/accessory.l_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r/accessory.r_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head/head_end
+        weight: 1
+      - path: Armature/root/Bone
+        weight: 1
+      - path: Armature/root/Bone/leg.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l/foot.l_end
+        weight: 1
+      - path: Armature/root/Bone.001
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r/foot.r_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Explode
+      takeName: Armature|ArmatureAction
+      firstFrame: 274
+      lastFrame: 282
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/root
+        weight: 1
+      - path: Armature/root/belt
+        weight: 1
+      - path: Armature/root/belt/torso
+        weight: 1
+      - path: Armature/root/belt/torso/neck
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.l/wrist.l/hand.l/accessory.l/accessory.l_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r
+        weight: 1
+      - path: Armature/root/belt/torso/neck/arm.r/wrist.r/hand.r/accessory.r/accessory.r_end
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head
+        weight: 1
+      - path: Armature/root/belt/torso/neck/head/head_end
+        weight: 1
+      - path: Armature/root/Bone
+        weight: 1
+      - path: Armature/root/Bone/leg.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l
+        weight: 1
+      - path: Armature/root/Bone/leg.l/foot.l/foot.l_end
+        weight: 1
+      - path: Armature/root/Bone.001
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r
+        weight: 1
+      - path: Armature/root/Bone.001/leg.r/foot.r/foot.r_end
+        weight: 1
+      - path: Plane
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
